@@ -20,7 +20,7 @@ export function PitchSection() {
           </p>
 
           <h2 className="font-heading text-[clamp(2.5rem,5vw,4.5rem)] text-brand-text mb-8">
-            Everything&rsquo;s here. Just bring your scissors.
+            Everything&rsquo;s here. Just bring your tools.
           </h2>
         </motion.div>
 
