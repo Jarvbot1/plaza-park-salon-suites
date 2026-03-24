@@ -1,7 +1,9 @@
 'use client'
 
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import LineDraw from '@/components/animations/LineDraw'
+import { Arrow } from '@/components/Arrow'
 
 export function PitchSection() {
   return (
@@ -49,6 +51,23 @@ export function PitchSection() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
         >
           New leases include a four-week free signing bonus.
+        </motion.p>
+
+        <motion.p
+          className="font-body font-light text-brand-text-secondary leading-[1.65] mt-6"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+        >
+          Serving professionals from Irving, Las Colinas, Plano, Frisco, Dallas,
+          and across DFW.{' '}
+          <Link
+            href="/areas"
+            className="inline-flex items-center gap-1.5 text-brand-green link-draw font-medium"
+          >
+            View all areas <Arrow />
+          </Link>
         </motion.p>
       </div>
     </section>

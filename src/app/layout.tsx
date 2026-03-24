@@ -3,6 +3,7 @@ import { Instrument_Serif, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { AnimatedNav } from "@/components/layout/AnimatedNav";
 import { Footer } from "@/components/layout/Footer";
+import { GlobalFAQ } from "@/components/GlobalFAQ";
 
 const instrumentSerif = Instrument_Serif({
   variable: "--font-instrument",
@@ -64,6 +65,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <AnimatedNav />
         <main className="flex-1">{children}</main>
+        <GlobalFAQ />
         <Footer />
         <StructuredData />
       </body>

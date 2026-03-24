@@ -103,6 +103,17 @@ export function AboutPageClient() {
             families, and a growing population of people who want quality beauty
             services close to where they live.
           </p>
+
+          <p>
+            We serve independent beauty professionals from{" "}
+            <Link href="/areas/irving" className="text-brand-green link-draw">Irving</Link>,{" "}
+            <Link href="/areas/las-colinas" className="text-brand-green link-draw">Las Colinas</Link>,{" "}
+            <Link href="/areas/coppell" className="text-brand-green link-draw">Coppell</Link>,{" "}
+            <Link href="/areas/plano" className="text-brand-green link-draw">Plano</Link>,{" "}
+            <Link href="/areas/dallas" className="text-brand-green link-draw">Dallas</Link>,{" "}
+            <Link href="/areas/fort-worth" className="text-brand-green link-draw">Fort Worth</Link>,{" "}
+            and communities throughout the DFW metroplex.
+          </p>
         </div>
       </section>
 

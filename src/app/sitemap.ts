@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { cities } from "@/lib/cities";
 
 const BASE_URL = "https://plazaparksalonsuites.com";
 
@@ -35,5 +36,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...corePages, ...servicePages];
+  const areaIndex: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/areas`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+  ];
+
+  const areaPages: MetadataRoute.Sitemap = cities.map((city) => ({
+    url: `${BASE_URL}/areas/${city.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...corePages, ...servicePages, ...areaIndex, ...areaPages];
 }
