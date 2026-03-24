@@ -31,11 +31,11 @@ export function PitchSection() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
         >
           <p className="font-body font-light text-brand-text-secondary leading-[1.65] mb-6">
-            Plaza Park Salon Suites is a 13,000-square-foot building in
-            Irving&rsquo;s Valley Ranch neighborhood with forty private suites,
+            Plaza Park Salon Suites is an 8,000-square-foot building in
+            Valley Ranch with forty private suites,
             canal views, and the kind of natural light that makes color
             corrections easier and clients happier. Every suite is move-in
-            ready — styling station, shampoo bowl, mirrors, storage, the works.
+            ready — styling station, shampoo bowl, storage, the works.
             Your lease includes electricity, water, WiFi, parking, and 24/7
             access. No hidden fees. No long-term commitments.
           </p>

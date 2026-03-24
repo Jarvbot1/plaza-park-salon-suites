@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">What the suite model actually delivers</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">A private salon suite is a fully enclosed, lockable room with your name on the door. At <a href="/lease" class="text-warm link-draw">Plaza Park Salon Suites</a> in Irving's Valley Ranch corridor, each suite comes move-in ready with a styling station, mirror, lighting, climate control, and plumbing where applicable. You get your own key and 24/7 access. You set the hours, pick the products, choose the decor, and keep every dollar your clients pay you.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">A private salon suite is a fully enclosed, lockable room with your name on the door. At <a href="/lease" class="text-warm link-draw">Plaza Park Salon Suites</a> in the Valley Ranch corridor, each suite comes move-in ready with a styling station, lighting, climate control, and plumbing where applicable. You get your own key and 24/7 access. You set the hours, pick the products, choose the decor, and keep every dollar your clients pay you.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">That last point deserves emphasis. No commission split. No product kickback to the house. If a client pays you $150 for a balayage, $150 goes into your account. The only fixed cost is your monthly lease, which is predictable and does not fluctuate with the salon owner's mood or the building's overhead spikes.</p>
 
@@ -46,7 +46,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">Social media changed the beauty business permanently. Every stylist, barber, and esthetician is now their own marketing department. Instagram, TikTok, and Google Business Profile are where clients find you. And the visual backdrop of your work matters as much as the work itself.</p>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">A booth renter cannot control the backdrop. The shared salon's aesthetic is the salon owner's choice. A suite tenant, on the other hand, builds a visual identity from the walls out. The lighting, the color palette, the product display, the signage: it all becomes part of a cohesive brand that photographs well and tells a story. Browse the <a href="/directory" class="text-warm link-draw">Plaza Park directory</a> and you will see fifteen different brands, each with a distinct identity, all operating under one roof.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">A booth renter cannot control the backdrop. The shared salon's aesthetic is the salon owner's choice. A suite tenant, on the other hand, builds a visual identity from the walls out. The lighting, the color palette, the product display, the signage: it all becomes part of a cohesive brand that photographs well and tells a story. Browse the <a href="/directory" class="text-warm link-draw">Plaza Park directory</a> and you will see 25+ different brands, each with a distinct identity, all operating under one roof.</p>
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">The DFW market is particularly ripe</h2>
 
@@ -83,13 +83,13 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">The suite itself</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">Every suite at Plaza Park is move-in ready. That phrase gets thrown around a lot in this industry, so let me be specific about what it means here. When you sign your lease and get your key, you walk into a space that already contains a professional styling station with mirror, overhead lighting rated for color-accurate work, electrical outlets on dedicated circuits, and individual climate control so you are not fighting with your neighbor over the thermostat. Suites that service hair care clients include a plumbed shampoo bowl. The flooring is installed, the walls are finished, and the door locks behind you.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">Every suite at Plaza Park is move-in ready. That phrase gets thrown around a lot in this industry, so let me be specific about what it means here. When you sign your lease and get your key, you walk into a space that already contains a professional styling station, overhead lighting rated for color-accurate work, electrical outlets on dedicated circuits, and individual climate control so you are not fighting with your neighbor over the thermostat. Suites that service hair care clients include a plumbed shampoo bowl. The flooring is installed, the walls are finished, and the door locks behind you.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">You bring your tools, your products, and your personal touches. That is it. No assembling furniture. No hiring an electrician. No waiting three weeks for a plumber.</p>
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">Utilities are covered</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">Your lease payment covers electricity, water, and climate control for your suite. There is no separate utility bill, no metering of your usage, no surcharge in the summer when the Texas heat pushes every air conditioner to its limit. The building at 9425 N MacArthur Blvd spans 13,000 square feet, and the mechanical systems are maintained on a regular schedule by management.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">Your lease payment covers electricity, water, and climate control for your suite. There is no separate utility bill, no metering of your usage, no surcharge in the summer when the Texas heat pushes every air conditioner to its limit. The building at 9425 N MacArthur Blvd spans 8,000 square feet, and the mechanical systems are maintained on a regular schedule by management.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">Wi-Fi access is available throughout the building. You will want it for processing payments, streaming music for your clients, managing your booking app, and posting to social media between appointments.</p>
 
@@ -172,7 +172,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">Taking the next step</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">Plaza Park Salon Suites in Irving's Valley Ranch corridor was built for exactly this transition. Suites come move-in ready. New tenants get four weeks free. Lease terms are flexible. And you are joining a community of 15-plus professionals who made the same decision you are considering.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">Plaza Park Salon Suites in the Valley Ranch corridor was built for exactly this transition. Suites come move-in ready. New tenants get four weeks free. Lease terms are flexible. And you are joining a community of 25+ professionals who made the same decision you are considering.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6"><a href="/lease" class="text-warm link-draw">Schedule a tour</a> and see the space. Walk the hallways. Talk to current tenants. The worst that can happen is you confirm that you are not ready yet. The best that can happen is you find your next home. Learn more <a href="/about" class="text-warm link-draw">about Plaza Park</a> and what the community looks like from the inside.</p>`,
   },
@@ -256,7 +256,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">Cross-referrals inside the building</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">This is one of the most underutilized advantages of suiting in a multi-tenant building. Plaza Park has 15-plus professionals offering different services. A barber's client who mentions wanting lash extensions should walk out with a recommendation. A lash artist whose client needs a haircut should have a name ready. Browse the <a href="/directory" class="text-warm link-draw">Plaza Park directory</a> and you will see the range: hair care, barber, skin care, lash extensions, makeup, waxing, chiropractic.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">This is one of the most underutilized advantages of suiting in a multi-tenant building. Plaza Park has 25+ professionals offering different services. A barber's client who mentions wanting lash extensions should walk out with a recommendation. A lash artist whose client needs a haircut should have a name ready. Browse the <a href="/directory" class="text-warm link-draw">Plaza Park directory</a> and you will see the range: hair care, barber, skin care, lash extensions, makeup, waxing, chiropractic.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">Make it a point to meet every professional in the building during your first two weeks. Exchange business cards or Instagram handles. Understand what each person specializes in so your referrals are specific and confident. A rising tide lifts all boats, but only if the boats know each other exist.</p>
 
@@ -337,12 +337,12 @@ export const blogPosts: BlogPost[] = [
     metaTitle: 'Meet the Professionals at Plaza Park | Plaza Park Salon Suites',
     metaDescription: 'Get to know the independent beauty and wellness professionals who call Plaza Park Salon Suites home in Irving TX.',
     date: '2026-02-28',
-    excerpt: 'Fifteen independent businesses under one roof, each with a different story. Here are a few worth knowing.',
-    content: `<p class="text-ink-light font-light leading-[1.65] mb-6">A salon suite building is only as good as the people inside it. The suites at Plaza Park are well-built and well-located, but what gives the building its character is the community of independent professionals who work here. Fifteen-plus businesses operate from 9425 N MacArthur Blvd, each one distinct, each one run by someone who chose independence over the traditional salon model. Here are a few of them.</p>
+    excerpt: '25+ independent businesses under one roof, each with a different story. Here are a few worth knowing.',
+    content: `<p class="text-ink-light font-light leading-[1.65] mb-6">A salon suite building is only as good as the people inside it. The suites at Plaza Park are well-built and well-located, but what gives the building its character is the community of independent professionals who work here. 25+ businesses operate from 9425 N MacArthur Blvd, each one distinct, each one run by someone who chose independence over the traditional salon model. Here are a few of them.</p>
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">Brandi A. Williams -- Picasso the illestrator, Suite 39</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">Brandi wears two hats at Plaza Park, and she wears both well. As property manager, she is the person you call when you need a tour, have a maintenance question, or want to understand the lease terms. As a practicing beauty professional, she runs <a href="/directory/brandi-williams" class="text-warm link-draw">Picasso the illestrator</a> from Suite 39, offering hair care and beauty services to her own clientele.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">Brandi wears two hats at Plaza Park, and she wears both well. As salon manager, she is the person you call when you need a tour, have a maintenance question, or want to understand the lease terms. As a practicing beauty professional, she runs <a href="/directory/brandi-williams" class="text-warm link-draw">Picasso the illestrator</a> from Suite 39, offering hair care and beauty services to her own clientele.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">That dual perspective is what makes Plaza Park different from most suite facilities. When a tenant reports an issue, they are talking to someone who understands what a broken shampoo bowl means for a day's revenue. When a prospective tenant has doubts about making the leap to independence, they are talking to someone who made the same leap and can speak to it honestly. Brandi's phone number, (469) 917-8050, is the first point of contact for the building, and she is responsive.</p>
 
@@ -374,7 +374,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">Room for more</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">With 40 suites across 13,000 square feet, Plaza Park has room for professionals who want to join a community rather than just rent a room. If you are considering the move to a private suite, <a href="/lease" class="text-warm link-draw">schedule a tour</a> and meet some of these professionals in person. They are generous with their time and honest about their experience. The building sells itself, but the people inside it close the deal.</p>`,
+<p class="text-ink-light font-light leading-[1.65] mb-6">With 40 suites across 8,000 square feet, Plaza Park has room for professionals who want to join a community rather than just rent a room. If you are considering the move to a private suite, <a href="/lease" class="text-warm link-draw">schedule a tour</a> and meet some of these professionals in person. They are generous with their time and honest about their experience. The building sells itself, but the people inside it close the deal.</p>`,
   },
   {
     slug: 'first-week-salon-suite',
@@ -393,7 +393,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2 class="font-heading text-title text-ink mt-12 mb-4">Day one: set up the space</h2>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">Your suite at Plaza Park comes move-in ready with a styling station, mirror, lighting, and climate control already in place. Day one is about layering your personality and workflow onto that foundation.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">Your suite at Plaza Park comes move-in ready with a styling station, lighting, and climate control already in place. Day one is about layering your personality and workflow onto that foundation.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">Start with function. Organize your tools in the order you use them. Position your product shelf where you can reach it without turning away from the client. Test the shampoo bowl water pressure and temperature. Run every electrical outlet. Adjust the thermostat until you find your working temperature. These details matter because you will be repeating these motions hundreds of times.</p>
 
@@ -403,7 +403,7 @@ export const blogPosts: BlogPost[] = [
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">Walk the hallways and introduce yourself to every professional you encounter. At Plaza Park, this means meeting hair stylists, barbers, estheticians, a lash artist, a makeup artist, and a chiropractor. Exchange Instagram handles and phone numbers. Learn what each person does so you can refer clients confidently.</p>
 
-<p class="text-ink-light font-light leading-[1.65] mb-6">If you have not already, connect with Brandi Williams, the property manager. Brandi also runs her own beauty business from Suite 39, so she understands the tenant experience from both sides. She is the person to call for building questions, maintenance requests, and general guidance. Her number is (469) 917-8050.</p>
+<p class="text-ink-light font-light leading-[1.65] mb-6">If you have not already, connect with Brandi Williams, the salon manager. Brandi also runs her own beauty business from Suite 39, so she understands the tenant experience from both sides. She is the person to call for building questions, maintenance requests, and general guidance. Her number is (469) 917-8050.</p>
 
 <p class="text-ink-light font-light leading-[1.65] mb-6">Ask the tenants who have been here longest for their honest advice. What do they wish they had done differently in their first week? What surprised them? Which marketing strategies worked? Experienced suite tenants are usually generous with this kind of information because they remember being in your position.</p>
 

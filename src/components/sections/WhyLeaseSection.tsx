@@ -35,7 +35,7 @@ const reasons = [
   {
     icon: Users,
     title: "Growing Community",
-    description: "Join 15+ independent beauty professionals in a collaborative space.",
+    description: "Join 25+ independent beauty professionals in a collaborative space.",
   },
 ];
 

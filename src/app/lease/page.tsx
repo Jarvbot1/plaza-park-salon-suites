@@ -4,7 +4,7 @@ import { LeasePageClient } from "./LeasePageClient";
 export const metadata: Metadata = {
   title: "Lease a Suite | Plaza Park Salon Suites | Irving TX",
   description:
-    "Move-in ready private salon suites in Irving, TX. Four weeks free on new leases. Flexible terms, 24/7 access, all utilities included.",
+    "Move-in ready private salon suites in Valley Ranch, TX. Four weeks free on new leases. Flexible terms, 24/7 access, all utilities included.",
   alternates: { canonical: "/lease" },
 };
 
@@ -25,7 +25,7 @@ function LeaseStructuredData() {
         "@type": "Service",
         name: "Private Salon Suite Leasing",
         description:
-          "Move-in ready private salon suites at Plaza Park Salon Suites in Irving, TX. Flexible lease terms, 24/7 access, all utilities included, four weeks free on new leases.",
+          "Move-in ready private salon suites at Plaza Park Salon Suites in Valley Ranch, TX. Flexible lease terms, 24/7 access, all utilities included, four weeks free on new leases.",
         provider: {
           "@id": "https://plazaparksalonsuites.com/#business",
         },

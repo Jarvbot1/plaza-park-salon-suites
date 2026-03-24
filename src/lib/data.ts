@@ -71,7 +71,7 @@ export const specialists: Specialist[] = [
     services: ["Hair Care", "Beauty Services"],
     primaryService: "Hair Care",
     isPropertyManager: true,
-    bio: "Brandi Williams serves as property manager at Plaza Park Salon Suites while also running her own beauty business, Picasso the illestrator, from Suite 39. This dual perspective means she understands exactly what independent professionals need — because she's one of them. Whether you're scheduling a tour, moving in, or need support as a tenant, Brandi is your go-to.",
+    bio: "Brandi Williams serves as salon manager at Plaza Park Salon Suites while also running her own beauty business, Picasso the illestrator, from Suite 39. This dual perspective means she understands exactly what independent professionals need — because she's one of them. Whether you're scheduling a tour, moving in, or need support as a tenant, Brandi is your go-to.",
   },
   {
     slug: "tavion-bryant",
@@ -120,22 +120,6 @@ export const specialists: Specialist[] = [
     suite: "43",
     services: ["Skin Care"],
     primaryService: "Skin Care",
-  },
-  {
-    slug: "brandon-hayter",
-    name: "Brandon L. Hayter",
-    businessName: "Epic Fades LLC",
-    suite: "3",
-    services: ["Barber"],
-    primaryService: "Barber",
-  },
-  {
-    slug: "tyrone-jenkins",
-    name: "Tyrone Jenkins",
-    businessName: "Ty Razor Cuts",
-    suite: "32",
-    services: ["Barber"],
-    primaryService: "Barber",
   },
 ];
 
@@ -258,7 +242,7 @@ export const services: ServiceData[] = [
     title: "Lash Extensions",
     metaTitle: "Lash Extensions in Irving TX | Plaza Park Salon Suites",
     description: "Professional lash extension services including classic, volume, and hybrid sets in private suites in Irving, TX.",
-    longDescription: "Get gorgeous, long-lasting lash extensions from skilled lash artists at Plaza Park Salon Suites. Our lash specialists work from private suites in Irving's Valley Ranch area, providing a calm, focused environment for meticulous lash application. Whether you want a natural classic set, dramatic volume lashes, or a trendy hybrid look, our artists customize every set to complement your eye shape and personal style. Enjoy the luxury of a private appointment with no distractions.",
+    longDescription: "Get gorgeous, long-lasting lash extensions from skilled lash artists at Plaza Park Salon Suites. Our lash specialists work from private suites in the Valley Ranch area, providing a calm, focused environment for meticulous lash application. Whether you want a natural classic set, dramatic volume lashes, or a trendy hybrid look, our artists customize every set to complement your eye shape and personal style. Enjoy the luxury of a private appointment with no distractions.",
     whatToExpect: [
       "Detailed consultation to choose your ideal lash style and curl",
       "Comfortable private suite — relax during your appointment",
@@ -296,7 +280,7 @@ export const services: ServiceData[] = [
     title: "Waxing",
     metaTitle: "Waxing Services in Irving TX | Plaza Park Salon Suites",
     description: "Professional waxing services for face and body from licensed estheticians in private suites in Irving, TX.",
-    longDescription: "Experience smooth, long-lasting results with professional waxing services at Plaza Park Salon Suites. Our licensed waxing specialists provide a full range of hair removal services from private suites in Irving's Valley Ranch corridor. From brow shaping and lip waxing to full body services, our professionals use premium hard and soft waxes suited to your skin type. The private suite setting ensures complete comfort and discretion during every appointment.",
+    longDescription: "Experience smooth, long-lasting results with professional waxing services at Plaza Park Salon Suites. Our licensed waxing specialists provide a full range of hair removal services from private suites in the Valley Ranch corridor. From brow shaping and lip waxing to full body services, our professionals use premium hard and soft waxes suited to your skin type. The private suite setting ensures complete comfort and discretion during every appointment.",
     whatToExpect: [
       "Private, hygienic suite environment for your comfort",
       "Premium wax formulas selected for your skin sensitivity",
@@ -334,7 +318,7 @@ export const services: ServiceData[] = [
     title: "Chiropractor",
     metaTitle: "Chiropractor in Irving TX | Plaza Park Salon Suites",
     description: "Professional chiropractic care and wellness services in a private suite in the Valley Ranch area of Irving, TX.",
-    longDescription: "Charrette Chiropractic, located in Suite 14 at Plaza Park Salon Suites, provides professional chiropractic care in the heart of Irving's Valley Ranch corridor. Dr. Mark Charrette brings extensive expertise in spinal adjustments, pain management, and overall wellness to a comfortable private suite environment. Whether you are dealing with back pain, neck tension, headaches, or looking to improve your overall alignment and posture, you will receive personalized care in a private, professional setting — distinct from a crowded clinic.",
+    longDescription: "Charrette Chiropractic, located in Suite 14 at Plaza Park Salon Suites, provides professional chiropractic care in the heart of the Valley Ranch corridor. Dr. Mark Charrette brings extensive expertise in spinal adjustments, pain management, and overall wellness to a comfortable private suite environment. Whether you are dealing with back pain, neck tension, headaches, or looking to improve your overall alignment and posture, you will receive personalized care in a private, professional setting — distinct from a crowded clinic.",
     whatToExpect: [
       "Comprehensive initial assessment of your musculoskeletal health",
       "Personalized treatment plan tailored to your condition",
@@ -420,7 +404,7 @@ export const blogPosts: BlogPost[] = [
 
 For decades, the traditional salon model dominated: rent a chair, split commissions, follow someone else's rules. But today's beauty professionals want more. They want to set their own hours, choose their own products, build their own brand, and keep 100% of their earnings. Private salon suites make all of that possible.
 
-At Plaza Park Salon Suites, located at 9425 N MacArthur Blvd in Irving's Valley Ranch corridor, 15+ independent professionals have already made the leap. From hairstylists and barbers to estheticians and even a chiropractor, our community represents the full spectrum of beauty and wellness.
+At Plaza Park Salon Suites, located at 9425 N MacArthur Blvd in the Valley Ranch corridor, 25+ independent professionals have already made the leap. From hairstylists and barbers to estheticians and even a chiropractor, our community represents the full spectrum of beauty and wellness.
 
 ## Why Irving TX Is the Perfect Location
 
@@ -437,7 +421,7 @@ Unlike booth rental or commission-based salons, a private salon suite gives you:
 - **100% of your revenue**: No commission splits, no product sales requirements
 - **Professional environment**: Modern finishes, included appliances, free parking
 
-At Plaza Park, suites come move-in ready with styling stations, mirrors, and essential fixtures. New tenants receive a 4 weeks free signing bonus, making the transition even easier.
+At Plaza Park, suites come move-in ready with styling stations and essential fixtures. New tenants receive a 4 weeks free signing bonus, making the transition even easier.
 
 ## The Numbers Tell the Story
 
@@ -447,9 +431,9 @@ Plaza Park's 5.0-star rating on Booksy with 209+ reviews demonstrates that the s
 
 ## Ready to Make the Move?
 
-If you're a licensed beauty or wellness professional in the Irving, Valley Ranch, or Las Colinas area, Plaza Park Salon Suites could be your next home. With 40 private suites across 13,000 square feet and a supportive community of fellow professionals, you'll have everything you need to grow your business on your terms.
+If you're a licensed beauty or wellness professional in the Irving, Valley Ranch, or Las Colinas area, Plaza Park Salon Suites could be your next home. With 40 private suites across 8,000 square feet and a supportive community of fellow professionals, you'll have everything you need to grow your business on your terms.
 
-[Schedule a tour](/lease) with property manager Brandi Williams to see available suites. Call [(469) 917-8050](/contact) or visit our [directory](/directory) to meet the professionals who already call Plaza Park home.`,
+[Schedule a tour](/lease) with salon manager Brandi Williams to see available suites. Call [(469) 917-8050](/contact) or visit our [directory](/directory) to meet the professionals who already call Plaza Park home.`,
   },
   {
     slug: "whats-included-when-you-lease-suite-plaza-park-salon-suites",
@@ -464,7 +448,7 @@ If you're a licensed beauty or wellness professional in the Irving, Valley Ranch
 
 When we say our suites are move-in ready, we mean it. Every suite at Plaza Park comes equipped with:
 
-- **Styling station and mirror** — Professional-grade furniture already in place
+- **Styling station** — Professional-grade furniture already in place
 - **Shampoo bowl** (in applicable suites) — Plumbed and ready to use
 - **Electrical and plumbing** — All utilities included in your lease
 - **Climate control** — Individual HVAC for your comfort
@@ -486,7 +470,7 @@ Both you and your clients park for free. No meters, no garages, no hassle. This 
 Select exterior-facing suites offer views of the canal system in the Valley Ranch area. Natural light floods these suites, creating a welcoming atmosphere that clients love and that photographs beautifully for your social media.
 
 ### On-Site Management
-Brandi Williams serves as both property manager and practicing beauty professional from Suite 39. That means when something needs attention, you're dealing with someone who understands your business — because she runs one too.
+Brandi Williams serves as both salon manager and practicing beauty professional from Suite 39. That means when something needs attention, you're dealing with someone who understands your business — because she runs one too.
 
 ## The Financial Picture
 
@@ -498,7 +482,7 @@ Compare that to the alternative: traditional booth rental often runs $300-600+ p
 
 No commission splits. No required product lines. No shared waiting areas. No scheduling conflicts. No drama.
 
-Our 40 private suites across 13,000 square feet are designed for professionals who want to run their own business, their own way. That's what 15+ current specialists have chosen — from hair stylists and barbers to estheticians, a lash artist, and even a chiropractor.
+Our 40 private suites across 8,000 square feet are designed for professionals who want to run their own business, their own way. That's what 25+ current specialists have chosen — from hair stylists and barbers to estheticians, a lash artist, and even a chiropractor.
 
 ## See It for Yourself
 
@@ -541,20 +525,20 @@ In your own suite, everything is yours. Your brand name on the door. Your decor 
 
 Getting your own suite isn't just a career move — it's a mindset shift. It means betting on yourself and your ability to attract and retain clients. If that thought excites you more than it scares you, you're ready.
 
-At Plaza Park Salon Suites in Irving, TX, we make the transition as smooth as possible. Suites come move-in ready with appliances included. New tenants get a 4 weeks free signing bonus. Lease terms are flexible. And property manager Brandi Williams — who also runs her own beauty business from Suite 39 — is there to help you every step of the way.
+At Plaza Park Salon Suites in Irving, TX, we make the transition as smooth as possible. Suites come move-in ready with appliances included. New tenants get a 4 weeks free signing bonus. Lease terms are flexible. And salon manager Brandi Williams — who also runs her own beauty business from Suite 39 — is there to help you every step of the way.
 
 ## Take the Next Step
 
-You don't have to wonder anymore. [Schedule a tour](/lease) at Plaza Park Salon Suites and see what your future could look like. Call (469) 917-8050 or learn more [about our community](/about). With 40 suites across 13,000 square feet in Irving's Valley Ranch corridor, there's a space with your name on it.`,
+You don't have to wonder anymore. [Schedule a tour](/lease) at Plaza Park Salon Suites and see what your future could look like. Call (469) 917-8050 or learn more [about our community](/about). With 40 suites across 8,000 square feet in the Valley Ranch corridor, there's a space with your name on it.`,
   },
   {
     slug: "meet-professionals-plaza-park-barbers-stylists-valley-ranch",
     title: "Meet the Professionals at Plaza Park: Barbers, Stylists & More in Valley Ranch",
-    excerpt: "Get to know the 15+ independent beauty and wellness professionals who call Plaza Park Salon Suites home.",
+    excerpt: "Get to know the 25+ independent beauty and wellness professionals who call Plaza Park Salon Suites home.",
     category: "Community",
     date: "2025-11-01",
     keywords: ["barber Valley Ranch", "hairstylist Irving TX"],
-    content: `Plaza Park Salon Suites isn't just a building with 40 private suites — it's a community of independent professionals who chose to bet on themselves. Located at 9425 N MacArthur Blvd in Irving's Valley Ranch neighborhood, our building houses 15+ specialists spanning the full spectrum of beauty and wellness. Here's a look at who you'll find inside.
+    content: `Plaza Park Salon Suites isn't just a building with 40 private suites — it's a community of independent professionals who chose to bet on themselves. Located at 9425 N MacArthur Blvd in Valley Ranch, our building houses 25+ specialists spanning the full spectrum of beauty and wellness. Here's a look at who you'll find inside.
 
 ## Our Hair Care Specialists
 
@@ -566,7 +550,7 @@ Hair care is the heartbeat of Plaza Park. Multiple independent stylists offer ev
 
 With four skilled barbers in the building, Plaza Park has become a go-to destination for precision grooming in Valley Ranch.
 
-**Sheverrick** (Shevythabarber, Suite 42), **Tavion Bryant** (Benevolence, Suite 2), **Brandon L. Hayter** (Epic Fades LLC, Suite 3), and **Tyrone Jenkins** (Ty Razor Cuts, Suite 32) each bring their own style and specialty. Whether you're looking for a classic fade, a lineup, or a complete style transformation, you'll find your barber at Plaza Park.
+**Sheverrick** (Shevythabarber, Suite 42) and **Tavion Bryant** (Benevolence, Suite 2) each bring their own style and specialty. Whether you're looking for a classic fade, a lineup, or a complete style transformation, you'll find your barber at Plaza Park.
 
 ## Skin Care & Aesthetics
 
@@ -580,9 +564,9 @@ With four skilled barbers in the building, Plaza Park has become a go-to destina
 
 In a unique addition to our beauty lineup, **Dr. Mark Charrette** operates Charrette Chiropractic from Suite 14, providing professional chiropractic care in the heart of Valley Ranch.
 
-## The Property Manager Who Gets It
+## The Salon Manager Who Gets It
 
-**Brandi A. Williams** wears two hats at Plaza Park. She's the property manager who keeps everything running smoothly, AND she operates her own beauty business, Picasso the illestrator, from Suite 39. This dual perspective means she truly understands what independent professionals need — because she is one.
+**Brandi A. Williams** wears two hats at Plaza Park. She's the salon manager who keeps everything running smoothly, AND she operates her own beauty business, Picasso the illestrator, from Suite 39. This dual perspective means she truly understands what independent professionals need — because she is one.
 
 ## Visit Our Directory
 
@@ -647,7 +631,7 @@ Reviews are the currency of trust. The more 5-star reviews you accumulate, the m
 
 ## 5. Network Inside Plaza Park
 
-One of the biggest advantages of suiting at Plaza Park is the built-in community. There are 15+ professionals in the building. That means:
+One of the biggest advantages of suiting at Plaza Park is the built-in community. There are 25+ professionals in the building. That means:
 
 - Cross-referrals: A barber's client might need skin care, and vice versa
 - Shared social media posts and stories
@@ -666,7 +650,7 @@ Beyond social media, make sure clients can find you online:
 
 ## Start Growing Today
 
-Building a clientele takes time, but the compounding effect of great work, strong reviews, and consistent marketing creates momentum. At Plaza Park Salon Suites, you have the foundation: a professional space, supportive community, and prime location in Irving's Valley Ranch area.
+Building a clientele takes time, but the compounding effect of great work, strong reviews, and consistent marketing creates momentum. At Plaza Park Salon Suites, you have the foundation: a professional space, supportive community, and prime location in the Valley Ranch area.
 
 Ready to start your journey? [Learn about leasing](/lease) or [schedule a tour](/contact) with Brandi Williams at (469) 917-8050.`,
   },
@@ -681,7 +665,7 @@ Ready to start your journey? [Learn about leasing](/lease) or [schedule a tour](
 
 ## The Valley Ranch / Las Colinas Corridor
 
-Plaza Park Salon Suites sits at 9425 N MacArthur Blvd, Suite 150, in the heart of Irving's Valley Ranch neighborhood. This corridor has experienced significant growth over the past decade, transforming into one of the DFW area's most desirable suburban communities.
+Plaza Park Salon Suites sits at 9425 N MacArthur Blvd, Suite 150, in the heart of Valley Ranch. This corridor has experienced significant growth over the past decade, transforming into one of the DFW area's most desirable suburban communities.
 
 Valley Ranch residents tend to be working professionals and families with disposable income — exactly the demographic that values quality beauty services and is willing to pay for a premium experience. The area's median household income exceeds the Irving average, and the population continues to grow.
 
@@ -712,7 +696,7 @@ While Irving has several salon suite options, Plaza Park's Valley Ranch position
 
 ## Built for Beauty Professionals
 
-Plaza Park Salon Suites was designed specifically for independent beauty professionals. With 40 private suites across 13,000 square feet, 24/7 access, free parking, and on-site management from Brandi Williams (who also operates her own beauty business), every detail supports your success.
+Plaza Park Salon Suites was designed specifically for independent beauty professionals. With 40 private suites across 8,000 square feet, 24/7 access, free parking, and on-site management from Brandi Williams (who also operates her own beauty business), every detail supports your success.
 
 The Valley Ranch location is the final piece: it puts you in front of the right clients, in an accessible location, with an attractive setting.
 
@@ -785,7 +769,7 @@ The commission or booth rent isn't the only cost. In a traditional salon, you ma
 
 At Plaza Park Salon Suites in Irving, TX, the value proposition goes beyond just the financial comparison:
 
-- 40 private suites in a 13,000 sq ft building
+- 40 private suites in a 8,000 sq ft building
 - Canal views and natural lighting
 - Free parking for you and your clients
 - On-site management from Brandi Williams
@@ -814,7 +798,7 @@ Your first week in a salon suite is exciting, and a little planning goes a long 
 
 ## Day 1: Move In and Set Up
 
-Your suite comes move-in ready with styling stations, mirrors, and essential fixtures already in place. Day one is about making the space yours:
+Your suite comes move-in ready with styling stations and essential fixtures already in place. Day one is about making the space yours:
 
 - **Unpack your tools and products** — Organize stations the way you work
 - **Test everything** — Run water, check outlets, adjust lighting, test the HVAC
@@ -839,7 +823,7 @@ One of the best parts of Plaza Park is the community. Take time to:
 
 - **Walk the building** and introduce yourself to other professionals
 - **Exchange contact info** — Cross-referrals are one of the biggest benefits of suite life
-- **Meet Brandi Williams** (if you haven't already) — She's the property manager AND runs Picasso the illestrator from Suite 39
+- **Meet Brandi Williams** (if you haven't already) — She's the salon manager AND runs Picasso the illestrator from Suite 39
 - **Ask questions** — Other tenants are a wealth of practical knowledge
 
 ## Day 4-5: Start Seeing Clients
@@ -867,13 +851,13 @@ You survived your first week! Take a moment to appreciate what you've accomplish
 - You have your own business space
 - Your clients are adjusting to the new location
 - Your online profiles are updated
-- You're part of a community of 15+ independent professionals
+- You're part of a community of 25+ independent professionals
 
 Now plan for growth: set a 30-day goal for new clients, plan your social media content for the month, and start thinking about what services you might add to your menu.
 
 ## You're Not Alone
 
-Starting out in a salon suite can feel like a big change, but at Plaza Park, you have support. Brandi Williams is on-site and responsive. Your fellow tenants are a built-in network. And the 13,000 sq ft building in Valley Ranch gives you a professional home base to grow from.
+Starting out in a salon suite can feel like a big change, but at Plaza Park, you have support. Brandi Williams is on-site and responsive. Your fellow tenants are a built-in network. And the 8,000 sq ft building in Valley Ranch gives you a professional home base to grow from.
 
 Ready to start your first week? [Tour our available suites](/lease) or call (469) 917-8050. Browse the [directory](/directory) to see who you'll be working alongside, and read more about [what's included in your lease](/about).`,
   },
@@ -921,23 +905,23 @@ export interface FAQItem {
 
 export const faqItems: FAQItem[] = [
   { category: "Pricing & Costs", question: "How much does a suite cost?", answer: "Suite pricing varies based on size and location within the building. All new leases include a 4 weeks free signing bonus. Contact us at (469) 917-8050 or email valleyranchsuitetours@gmail.com for current pricing and availability." },
-  { category: "Pricing & Costs", question: "What's included in the lease?", answer: "Every suite comes move-in ready with styling stations, mirrors, and essential fixtures. Utilities, climate control, 24/7 access, free parking, and on-site management are all included. Just bring your professional tools and products." },
+  { category: "Pricing & Costs", question: "What's included in the lease?", answer: "Every suite comes move-in ready with styling stations and essential fixtures. Utilities, climate control, 24/7 access, free parking, and on-site management are all included. Just bring your professional tools and products." },
   { category: "Pricing & Costs", question: "Are there any hidden fees?", answer: "No hidden fees. Your monthly lease covers the suite, utilities, building maintenance, and all standard amenities. We believe in transparent pricing — what you see is what you pay." },
   { category: "Pricing & Costs", question: "What is the 4 weeks free signing bonus?", answer: "All new tenants receive their first 4 weeks of occupancy at no cost. This gives you time to set up your suite, transition your clients, and start generating revenue before your first payment is due." },
   { category: "Getting Started", question: "How do I schedule a tour?", answer: "Call (469) 917-8050, email valleyranchsuitetours@gmail.com, or fill out the contact form on our website. Property manager Brandi Williams will personally show you available suites and answer all your questions." },
   { category: "Getting Started", question: "What happens during a tour?", answer: "Brandi Williams will walk you through available suites, explain lease terms, show you building amenities, and answer your questions. Tours typically take 20-30 minutes. You're welcome to bring a friend or colleague." },
   { category: "Getting Started", question: "How quickly can I move in?", answer: "Move-in can happen as quickly as the same week you sign your lease. Suites are move-in ready with appliances and fixtures already installed — just bring your tools, products, and clients." },
   { category: "Getting Started", question: "Do I need a license or insurance?", answer: "Yes, all beauty and wellness professionals must hold a valid Texas state license for their specialty. We recommend professional liability insurance, though specific requirements can be discussed during your tour." },
-  { category: "The Suite", question: "What appliances and equipment are included?", answer: "Each suite comes with styling stations, mirrors, and essential fixtures. Specific equipment varies by suite type — some include shampoo bowls. Everything is professional-grade and maintained. Just bring your personal tools and products." },
+  { category: "The Suite", question: "What appliances and equipment are included?", answer: "Each suite comes with styling stations and essential fixtures. Specific equipment varies by suite type — some include shampoo bowls. Everything is professional-grade and maintained. Just bring your personal tools and products." },
   { category: "The Suite", question: "Can I customize my suite?", answer: "Absolutely. Your suite is your space — hang art, add shelving, bring furniture, set up a retail display. Most cosmetic customizations are welcome. Permanent structural changes should be discussed with management first." },
   { category: "The Suite", question: "Do suites have canal views?", answer: "Select exterior-facing suites offer views of the Valley Ranch canal system and benefit from abundant natural light. These suites are popular and fill quickly — mention your interest during your tour." },
   { category: "The Suite", question: "What sizes are available?", answer: "We offer various suite sizes to accommodate different specialties and needs, from compact single-station suites to larger multi-station spaces. Availability changes regularly, so schedule a tour to see current options." },
   { category: "Operations", question: "Do I have 24/7 access?", answer: "Yes. Every suite holder receives their own key and has round-the-clock access to their suite. Work early mornings, late nights, weekends — whatever schedule serves you and your clients best." },
   { category: "Operations", question: "Is parking available?", answer: "Yes, free parking is available for both suite holders and their clients. No meters, no garages, no parking fees — convenient access right at the building." },
-  { category: "Operations", question: "Is there on-site management?", answer: "Yes. Brandi Williams serves as property manager and is also a practicing beauty professional from Suite 39. She understands your needs because she shares them. Reach her at (469) 917-8050." },
-  { category: "Operations", question: "What if something breaks?", answer: "Contact Brandi Williams or the management office immediately. Building maintenance issues are handled promptly. Our 13,000 sq ft facility, established in 2016, is well-maintained with regular upkeep." },
+  { category: "Operations", question: "Is there on-site management?", answer: "Yes. Brandi Williams serves as salon manager and is also a practicing beauty professional from Suite 39. She understands your needs because she shares them. Reach her at (469) 917-8050." },
+  { category: "Operations", question: "What if something breaks?", answer: "Contact Brandi Williams or the management office immediately. Building maintenance issues are handled promptly. Our 8,000 sq ft facility, established in 2016, is well-maintained with regular upkeep." },
   { category: "Lease Terms", question: "What are the lease terms?", answer: "We offer flexible lease terms without long-term commitments. Terms can be discussed during your tour based on your needs and the suite you choose. Our goal is to make leasing as stress-free as possible." },
   { category: "Lease Terms", question: "Can I cancel my lease?", answer: "Lease cancellation terms are outlined in your agreement. We offer flexibility and understand that circumstances change. Discuss specific terms during your tour or contact Brandi for details." },
   { category: "Lease Terms", question: "Can I sublease my suite?", answer: "Subleasing is not permitted under standard lease terms. If your circumstances change, contact management to discuss options including lease transfer or termination." },
-  { category: "Community", question: "What types of professionals lease here?", answer: "Plaza Park is home to 15+ independent professionals including hairstylists, barbers, estheticians, nail technicians, lash artists, makeup artists, waxing specialists, and even a chiropractor. We welcome all licensed beauty and wellness professionals." },
+  { category: "Community", question: "What types of professionals lease here?", answer: "Plaza Park is home to 25+ independent professionals including hairstylists, barbers, estheticians, nail technicians, lash artists, makeup artists, waxing specialists, and even a chiropractor. We welcome all licensed beauty and wellness professionals." },
 ];

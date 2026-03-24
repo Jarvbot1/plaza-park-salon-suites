@@ -6,7 +6,7 @@ import { Arrow } from "@/components/Arrow";
 export const metadata: Metadata = {
   title: "Our Professionals | Plaza Park Salon Suites | Irving TX",
   description:
-    "Meet the fifteen independent beauty professionals at Plaza Park Salon Suites in Irving, TX. Hair, barber, skin, lash, makeup, and wellness specialists.",
+    "Meet the 25+ independent beauty professionals at Plaza Park Salon Suites in Valley Ranch, TX. Hair, barber, skin, lash, makeup, and wellness specialists.",
   alternates: { canonical: "/directory" },
 };
 
@@ -25,7 +25,7 @@ export default function DirectoryPage() {
             Our Professionals
           </h1>
           <p className="mt-4 text-subtitle font-body font-light text-ink-light leading-subheading">
-            Fifteen independent specialists. One address.
+            25+ independent specialists. One address.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ export default function DirectoryPage() {
           <section className="max-w-5xl mx-auto px-6 pb-16">
             <div className="bg-cream-dark py-8 px-8 rounded-[8px]">
               <p className="text-small uppercase tracking-wide text-ink-muted font-body mb-3">
-                Property Manager
+                Salon Manager
               </p>
               <h2 className="text-title font-heading text-ink leading-heading">
                 {brandi.name}

@@ -49,7 +49,7 @@ export function SocialProofSection() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          &ldquo;The best salon suite experience in Irving.&rdquo;
+          &ldquo;The best salon suite experience in Valley Ranch.&rdquo;
         </motion.p>
 
         <motion.div

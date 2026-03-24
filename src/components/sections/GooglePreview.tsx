@@ -54,7 +54,7 @@ export function GooglePreview() {
                   Hours
                 </span>
                 <span className="font-body text-sm text-brand-green font-medium">
-                  Open 24 hours
+                  Mon 9–7 · Tue–Fri 8–8 · Sat 7–6 · Sun Closed
                 </span>
               </div>
             </div>

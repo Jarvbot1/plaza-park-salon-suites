@@ -25,9 +25,7 @@ type ContactFormData = z.infer<typeof contactSchema>;
 
 const hours = [
   { day: "Mon", time: "9\u20137" },
-  { day: "Tue", time: "9\u20138" },
-  { day: "Wed", time: "8\u20139" },
-  { day: "Thu\u2013Fri", time: "8\u201310" },
+  { day: "Tue\u2013Fri", time: "8\u20138" },
   { day: "Sat", time: "7\u20136" },
   { day: "Sun", time: "Closed" },
 ];
@@ -57,7 +55,7 @@ export function ContactPageClient() {
           {/* Left column — Contact info */}
           <div>
             <h2 className="text-subtitle font-heading text-ink">
-              Brandi Williams, Property Manager
+              Brandi Williams, Salon Manager
             </h2>
 
             <div className="mt-6 space-y-3 font-body text-body text-ink-light">

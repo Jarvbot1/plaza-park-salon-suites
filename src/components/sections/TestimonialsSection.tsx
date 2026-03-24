@@ -13,7 +13,7 @@ const testimonials = [
     author: 'Esthetician',
   },
   {
-    text: 'Brandi is an amazing property manager. She understands the beauty industry because she\'s in it herself. The community here is supportive and professional.',
+    text: 'Brandi is an amazing salon manager. She understands the beauty industry because she\'s in it herself. The community here is supportive and professional.',
     author: 'Barber',
   },
   {

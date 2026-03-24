@@ -34,7 +34,7 @@ export function LeasePageClient() {
       <section className="bg-cream-dark py-24">
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-small uppercase tracking-wide text-ink-muted font-body mb-4">
-            Plaza Park Salon Suites — Irving, TX
+            Plaza Park Salon Suites — Valley Ranch, TX
           </p>
           <h1 className="text-display font-heading text-ink leading-heading tracking-tighter">
             Move in this week.
@@ -49,7 +49,7 @@ export function LeasePageClient() {
             Every suite at Plaza Park comes move-in ready. Electricity, water,
             high-speed WiFi, and on-site parking are included in your lease — no
             surprise bills, no splitting utilities with a landlord. Each suite is
-            fitted with a professional styling station, shampoo bowl, mirrors,
+            fitted with a professional styling station, shampoo bowl,
             and built-in storage so you can start seeing clients the same week
             you sign. The building offers 24/7 key-card access, meaning your
             schedule is yours alone — early mornings, late evenings, Sundays,
@@ -85,7 +85,7 @@ export function LeasePageClient() {
             <tr className="border-b border-cream-dark">
               <td className="py-3 pr-6 font-medium text-ink">Included</td>
               <td className="py-3">
-                Styling station, shampoo bowl, mirrors, storage
+                Styling station, shampoo bowl, storage
               </td>
             </tr>
             <tr className="border-b border-cream-dark">

@@ -39,13 +39,13 @@ export function BrandiSection() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
             <p className="font-body text-xs tracking-[0.12em] uppercase text-brand-text-muted mb-4">
-              Your Property Manager
+              Your Salon Manager
             </p>
             <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-brand-text mb-6">
               Brandi Williams
             </h2>
             <p className="font-body font-light text-brand-text-secondary leading-[1.7] mb-4">
-              Brandi runs Plaza Park Salon Suites from Suite 39, where she also operates her own beauty business. She became the property manager because she was already here — and she understood what independent professionals actually need because she is one.
+              Brandi runs Plaza Park Salon Suites from Suite 39, where she also operates her own beauty business. She became the salon manager because she was already here — and she understood what independent professionals actually need because she is one.
             </p>
             <p className="font-body font-light text-brand-text-secondary leading-[1.7] mb-8">
               Whether you&rsquo;re visiting for the first time or you&rsquo;ve been here for years, Brandi is the person you&rsquo;ll call.

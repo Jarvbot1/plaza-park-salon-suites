@@ -36,7 +36,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="font-body uppercase text-xs tracking-[0.12em] text-white/70 mb-8"
         >
-          PLAZA PARK SALON SUITES — IRVING, TX
+          PLAZA PARK SALON SUITES — VALLEY RANCH, TX
         </motion.p>
 
         <TextClipReveal

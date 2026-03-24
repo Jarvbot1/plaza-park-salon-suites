@@ -13,7 +13,7 @@ const faqItems = [
   {
     question: "What\u2019s included in the lease?",
     answer:
-      "Every suite comes move-in ready with a styling station, shampoo bowl, mirrors, and storage. Your lease covers electricity, water, WiFi, parking, and 24/7 building access. Bring your tools and your clients \u2014 everything else is handled.",
+      "Every suite comes move-in ready with a styling station, shampoo bowl, and storage. Your lease covers electricity, water, WiFi, parking, and 24/7 building access. Bring your tools and your clients \u2014 everything else is handled.",
   },
   {
     question: "Do I need to sign a long-term lease?",
@@ -54,11 +54,11 @@ export function AboutPageClient() {
       <section className="bg-cream-dark py-24 px-6">
         <div className="mx-auto max-w-4xl">
           <h1 className="text-display font-heading leading-heading tracking-tighter text-ink">
-            A 13,000-square-foot building with forty private suites and canal
+            An 8,000-square-foot building with forty private suites and canal
             views
           </h1>
           <p className="text-small uppercase tracking-wide text-ink-muted mt-4">
-            Valley Ranch, Irving, Texas
+            Valley Ranch, Texas
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ export function AboutPageClient() {
             <span className="font-normal text-ink">
               Plaza Park Salon Suites opened in 2016
             </span>{" "}
-            in the Valley Ranch neighborhood of Irving, Texas. The building sits
+            in Valley Ranch, Texas. The building sits
             along the canal &mdash; a detail that sounds small until you spend a
             Tuesday afternoon doing a balayage with natural light pouring through
             floor-to-ceiling windows.{" "}
@@ -82,9 +82,9 @@ export function AboutPageClient() {
           <p>
             The building is{" "}
             <span className="font-normal text-ink">
-              13,000 square feet divided into forty private suites.
+              8,000 square feet divided into forty private suites.
             </span>{" "}
-            Each one is move-in ready: styling station, shampoo bowl, mirrors,
+            Each one is move-in ready: styling station, shampoo bowl,
             storage, electricity, water, WiFi. The lease includes everything
             except your tools and your clients.{" "}
             <span className="font-normal text-ink">
@@ -112,7 +112,7 @@ export function AboutPageClient() {
           Brandi Williams
         </h2>
         <p className="text-small text-ink-muted uppercase tracking-wide mt-1">
-          Property Manager, Suite 39
+          Salon Manager, Suite 39
         </p>
 
         <div className="mt-8 space-y-6 font-body font-light text-ink-light leading-body">
@@ -122,7 +122,7 @@ export function AboutPageClient() {
             <span className="font-normal text-ink">
               Picasso the Illestrator.
             </span>{" "}
-            She became the property manager because she was already here &mdash;
+            She became the salon manager because she was already here &mdash;
             and she understood what independent professionals actually need
             because she is one.
           </p>

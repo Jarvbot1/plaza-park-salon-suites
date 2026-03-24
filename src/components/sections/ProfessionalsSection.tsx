@@ -16,9 +16,7 @@ const professionals = [
   { name: 'Rhonda', specialty: 'Makeup', slug: 'rhonda' },
   { name: 'Loan Tran', specialty: 'Hair Care', slug: 'loan-tran' },
   { name: 'Hitha', specialty: 'Laser & Skin', slug: 'hitha' },
-  { name: 'Brandon Hayter', specialty: 'Barber', slug: 'brandon-hayter' },
-  { name: 'Tyrone Jenkins', specialty: 'Barber', slug: 'tyrone-jenkins' },
-  { name: 'Leonor', specialty: 'Skin Care', slug: 'leonor' },
+{ name: 'Leonor', specialty: 'Skin Care', slug: 'leonor' },
 ]
 
 export function ProfessionalsSection() {
@@ -32,7 +30,7 @@ export function ProfessionalsSection() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          Fifteen independents. One address.
+          25+ independents. One address.
         </motion.h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mb-14">

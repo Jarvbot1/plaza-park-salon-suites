@@ -27,7 +27,7 @@ export function SuitePreview() {
             See inside a suite
           </h2>
           <p className="font-body text-brand-text-secondary max-w-2xl">
-            Every suite is move-in ready. Styling station, shampoo bowl, mirrors, storage — everything you need.
+            Every suite is move-in ready. Styling station, shampoo bowl, storage — everything you need.
           </p>
         </motion.div>
 

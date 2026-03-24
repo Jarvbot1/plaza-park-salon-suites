@@ -53,26 +53,26 @@ function ContactStructuredData() {
           {
             "@type": "OpeningHoursSpecification",
             dayOfWeek: "Tuesday",
-            opens: "09:00",
+            opens: "08:00",
             closes: "20:00",
           },
           {
             "@type": "OpeningHoursSpecification",
             dayOfWeek: "Wednesday",
             opens: "08:00",
-            closes: "21:00",
+            closes: "20:00",
           },
           {
             "@type": "OpeningHoursSpecification",
             dayOfWeek: "Thursday",
             opens: "08:00",
-            closes: "22:00",
+            closes: "20:00",
           },
           {
             "@type": "OpeningHoursSpecification",
             dayOfWeek: "Friday",
             opens: "08:00",
-            closes: "22:00",
+            closes: "20:00",
           },
           {
             "@type": "OpeningHoursSpecification",

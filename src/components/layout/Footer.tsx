@@ -54,8 +54,8 @@ export function Footer() {
                 Hours
               </p>
               <div className="font-body text-sm text-[#FAF7F2]/70 space-y-1">
-                <p>Mon 9–7 &middot; Tue 9–8 &middot; Wed 8–9</p>
-                <p>Thu–Fri 8–10 &middot; Sat 7–6 &middot; Sun Closed</p>
+                <p>Mon 9–7 &middot; Tue–Fri 8–8</p>
+                <p>Sat 7–6 &middot; Sun Closed</p>
                 <p className="italic mt-2">Suite holders have 24/7 access.</p>
               </div>
             </div>

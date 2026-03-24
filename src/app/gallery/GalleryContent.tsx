@@ -47,7 +47,7 @@ export function GalleryContent() {
           transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
           className="font-body text-xs uppercase tracking-[0.12em] text-brand-text-muted mt-3"
         >
-          Plaza Park Salon Suites, Valley Ranch, Irving TX
+          Plaza Park Salon Suites, Valley Ranch, TX
         </motion.p>
       </div>
 

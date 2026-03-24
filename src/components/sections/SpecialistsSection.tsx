@@ -63,7 +63,7 @@ export function SpecialistsSection() {
               href="/directory"
               className="inline-flex items-center text-brand-green font-body font-medium hover:underline underline-offset-4 transition-all"
             >
-              View All 15+ Professionals →
+              View All 25+ Professionals →
             </Link>
           </div>
         </ScrollReveal>

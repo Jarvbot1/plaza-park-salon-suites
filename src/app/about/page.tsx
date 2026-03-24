@@ -4,7 +4,7 @@ import { AboutPageClient } from "./AboutPageClient";
 export const metadata: Metadata = {
   title: "About | Plaza Park Salon Suites | Irving TX",
   description:
-    "A 13,000-square-foot building with forty private salon suites in Valley Ranch, Irving TX. Managed by Brandi Williams from Suite 39.",
+    "An 8,000-square-foot building with forty private salon suites in Valley Ranch, TX. Managed by Brandi Williams from Suite 39.",
   alternates: {
     canonical: "/about",
   },
@@ -30,7 +30,7 @@ function FAQPageSchema() {
     {
       question: "What\u2019s included in the lease?",
       answer:
-        "Every suite comes move-in ready with a styling station, shampoo bowl, mirrors, and storage. Your lease covers electricity, water, WiFi, parking, and 24/7 building access. Bring your tools and your clients \u2014 everything else is handled.",
+        "Every suite comes move-in ready with a styling station, shampoo bowl, and storage. Your lease covers electricity, water, WiFi, parking, and 24/7 building access. Bring your tools and your clients \u2014 everything else is handled.",
     },
     {
       question: "Do I need to sign a long-term lease?",
@@ -94,7 +94,7 @@ function AboutStructuredData() {
         "@id": "https://plazaparksalonsuites.com/about",
         name: "About Plaza Park Salon Suites",
         description:
-          "A 13,000-square-foot building with forty private salon suites in Valley Ranch, Irving TX. Managed by Brandi Williams from Suite 39.",
+          "An 8,000-square-foot building with forty private salon suites in Valley Ranch, TX. Managed by Brandi Williams from Suite 39.",
         url: "https://plazaparksalonsuites.com/about",
         mainEntity: {
           "@id": "https://plazaparksalonsuites.com/#business",
@@ -104,7 +104,7 @@ function AboutStructuredData() {
         "@type": "Person",
         "@id": "https://plazaparksalonsuites.com/#brandi-williams",
         name: "Brandi Williams",
-        jobTitle: "Property Manager",
+        jobTitle: "Salon Manager",
         worksFor: {
           "@id": "https://plazaparksalonsuites.com/#business",
         },

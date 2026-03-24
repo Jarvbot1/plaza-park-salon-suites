@@ -4,7 +4,6 @@ import { PitchSection } from "@/components/sections/PitchSection";
 import { BrandiSection } from "@/components/sections/BrandiSection";
 import { SuitePreview } from "@/components/sections/SuitePreview";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
-import { ProfessionalsSection } from "@/components/sections/ProfessionalsSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { BooksyPreview } from "@/components/sections/BooksyPreview";
 import { SocialProofSection } from "@/components/sections/SocialProofSection";
@@ -20,7 +19,6 @@ export default function Home() {
       <BrandiSection />
       <SuitePreview />
       <ServicesGrid />
-      <ProfessionalsSection />
       <TestimonialsSection />
       <BooksyPreview />
       <SocialProofSection />

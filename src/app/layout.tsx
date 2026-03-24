@@ -21,7 +21,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Plaza Park Salon Suites | Private Salon Suites for Lease | Irving TX",
   description:
-    "Premium private salon suites starting with a 4-week free signing bonus in Irving, TX. Move-in ready with appliances included, canal views, and 24/7 access. 40 suites, 15+ beauty professionals. 9425 N MacArthur Blvd, Suite 150.",
+    "Premium private salon suites starting with a 4-week free signing bonus in Valley Ranch, TX. Move-in ready with appliances included, canal views, and 24/7 access. 40 suites, 25+ beauty professionals. 9425 N MacArthur Blvd, Suite 150.",
   keywords: [
     "salon suites Irving TX",
     "Plaza Park Salon Suites",
@@ -80,7 +80,7 @@ function StructuredData() {
         "@id": "https://plazaparksalonsuites.com/#business",
         name: "Plaza Park Salon Suites",
         description:
-          "Premium private salon suites for independent beauty professionals in Irving, Texas. 40 suites, canal views, move-in ready with appliances included.",
+          "Premium private salon suites for independent beauty professionals in Valley Ranch, Texas. 8,000-square-foot building, 40 suites, canal views, move-in ready with appliances included.",
         url: "https://plazaparksalonsuites.com",
         telephone: "(469) 917-8050",
         email: "valleyranchsuitetours@gmail.com",
@@ -99,10 +99,10 @@ function StructuredData() {
         },
         openingHoursSpecification: [
           { "@type": "OpeningHoursSpecification", dayOfWeek: "Monday", opens: "09:00", closes: "19:00" },
-          { "@type": "OpeningHoursSpecification", dayOfWeek: "Tuesday", opens: "09:00", closes: "20:00" },
-          { "@type": "OpeningHoursSpecification", dayOfWeek: "Wednesday", opens: "08:00", closes: "21:00" },
-          { "@type": "OpeningHoursSpecification", dayOfWeek: "Thursday", opens: "08:00", closes: "22:00" },
-          { "@type": "OpeningHoursSpecification", dayOfWeek: "Friday", opens: "08:00", closes: "22:00" },
+          { "@type": "OpeningHoursSpecification", dayOfWeek: "Tuesday", opens: "08:00", closes: "20:00" },
+          { "@type": "OpeningHoursSpecification", dayOfWeek: "Wednesday", opens: "08:00", closes: "20:00" },
+          { "@type": "OpeningHoursSpecification", dayOfWeek: "Thursday", opens: "08:00", closes: "20:00" },
+          { "@type": "OpeningHoursSpecification", dayOfWeek: "Friday", opens: "08:00", closes: "20:00" },
           { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "07:00", closes: "18:00" },
         ],
         aggregateRating: {

@@ -5,7 +5,7 @@ import { blogPosts } from '@/lib/blog-data'
 export const metadata: Metadata = {
   title: 'Blog | Plaza Park Salon Suites | Irving TX',
   description:
-    'Insights and advice for independent beauty professionals considering a private salon suite in Irving, TX.',
+    'Insights and advice for independent beauty professionals considering a private salon suite in Valley Ranch, TX.',
   alternates: { canonical: '/blog' },
 }
 
