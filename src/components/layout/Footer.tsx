@@ -82,9 +82,20 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-[#FAF7F2]/10">
+        <div className="mt-12 pt-8 border-t border-[#FAF7F2]/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-body text-xs text-[#FAF7F2]/40">
             &copy; 2026 Plaza Park Salon Suites. All rights reserved.
+          </p>
+          <p className="font-body text-xs text-[#FAF7F2]/40">
+            Created by{" "}
+            <a
+              href="https://nixarsolutions.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-green-light hover:text-white transition-colors"
+            >
+              Nixar Solutions
+            </a>
           </p>
         </div>
       </div>
