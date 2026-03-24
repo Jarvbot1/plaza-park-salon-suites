@@ -1,84 +1,67 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-lora);
-  --font-mono: var(--font-jetbrains);
-  --font-heading: var(--font-cormorant);
+  --color-background: #fafbf8;
+  --color-foreground: #1a1f16;
 
-  /* Brand Colors */
-  --color-brand-cream: #faf9f5;
+  --font-sans: var(--font-dm-sans);
+  --font-heading: var(--font-instrument);
+
+  /* Brand Colors — green + white */
+  --color-brand-cream: #fafbf8;
+  --color-brand-cream-dark: #f0f2ec;
   --color-brand-surface: #ffffff;
-  --color-brand-surface-alt: #f0eee6;
-  --color-brand-dark: #1a1f16;
+  --color-brand-surface-alt: #f5f7f2;
+  --color-brand-dark: #1a2e1a;
   --color-brand-green: #788c5d;
   --color-brand-green-hover: #5f7048;
   --color-brand-green-light: #9aab82;
   --color-brand-green-muted: #c5d4b3;
-  --color-brand-accent: #d97757;
-  --color-brand-accent-hover: #c4613f;
-  --color-brand-text: #141413;
-  --color-brand-text-secondary: #6b6a68;
-  --color-brand-text-muted: #b0aea5;
+  --color-brand-accent: #788c5d;
+  --color-brand-accent-hover: #5f7048;
+  --color-brand-text: #1a1f16;
+  --color-brand-text-secondary: #4a5240;
+  --color-brand-text-muted: #8a9478;
 
-  /* Shadows */
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.035);
-  --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.06);
-  --shadow-elevated: 0 12px 40px rgba(0, 0, 0, 0.08);
+  /* Shadows — warm tinted */
+  --shadow-card: 0 4px 20px rgba(44, 37, 32, 0.04);
+  --shadow-card-hover: 0 8px 30px rgba(44, 37, 32, 0.07);
+  --shadow-elevated: 0 12px 40px rgba(44, 37, 32, 0.09);
 
-  /* Radii */
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: 16px;
-  --radius-3xl: 24px;
-  --radius-4xl: calc(var(--radius) * 2.6);
+  /* Radii — intentionally restrained */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius: 6px;
 
-  /* shadcn tokens */
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
+  /* shadcn tokens mapped to green+white */
+  --color-card: #ffffff;
+  --color-card-foreground: #1a1f16;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #1a1f16;
+  --color-primary: #788c5d;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f5f7f2;
+  --color-secondary-foreground: #1a1f16;
+  --color-muted: #f5f7f2;
+  --color-muted-foreground: #4a5240;
+  --color-accent: #788c5d;
+  --color-accent-foreground: #FAF7F2;
+  --color-destructive: oklch(0.577 0.245 27.325);
+  --color-border: rgba(44, 37, 32, 0.08);
+  --color-input: rgba(44, 37, 32, 0.08);
+  --color-ring: #788c5d;
 }
 
-:root {
-  --background: #faf9f5;
-  --foreground: #141413;
-  --card: #ffffff;
-  --card-foreground: #141413;
-  --popover: #ffffff;
-  --popover-foreground: #141413;
-  --primary: #788c5d;
-  --primary-foreground: #ffffff;
-  --secondary: #f0eee6;
-  --secondary-foreground: #141413;
-  --muted: #f0eee6;
-  --muted-foreground: #6b6a68;
-  --accent: #d97757;
-  --accent-foreground: #ffffff;
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: rgba(0, 0, 0, 0.08);
-  --input: rgba(0, 0, 0, 0.08);
-  --ring: #788c5d;
-  --radius: 0.625rem;
+html {
+  background-color: #fafbf8;
+  color: #1a1f16;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @layer base {
@@ -86,25 +69,70 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-brand-cream text-brand-text;
-    font-family: var(--font-lora), Georgia, serif;
+    background-color: #fafbf8;
+    color: #1a1f16;
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+    line-height: 1.65;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-cormorant), Georgia, serif;
+    font-family: var(--font-instrument), Georgia, serif;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
   }
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* Focus rings — brand green */
+*:focus-visible {
+  outline: 2px solid #788c5d;
+  outline-offset: 2px;
 }
 
-/* Custom scrollbar */
+/* Links — no default underlines */
+a { text-decoration: none; color: inherit; }
+
+/* Selection — brand green */
+::selection {
+  background-color: #788c5d;
+  color: #ffffff;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Underline draw — CSS-only hover for text links */
+.link-draw {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+  padding-bottom: 2px;
+}
+.link-draw:hover {
+  background-size: 100% 1px;
+}
+
+/* Stock image warm grade */
+.stock-image {
+  filter: saturate(0.85) contrast(1.05) brightness(0.95);
+}
+
+/* Prevent horizontal overflow */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar — green tinted */
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #faf9f5;
+  background: #fafbf8;
 }
 ::-webkit-scrollbar-thumb {
   background: #c5d4b3;
@@ -112,4 +140,20 @@ html {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #788c5d;
+}
+
+/* Hide scrollbar for horizontal containers */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile input zoom prevention */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
 }

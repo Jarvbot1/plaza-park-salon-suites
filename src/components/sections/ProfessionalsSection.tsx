@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import StackedReveal from '@/components/animations/StackedReveal'
+import { motion } from 'framer-motion'
 import { Arrow } from '@/components/Arrow'
 
 const professionals = [
@@ -23,35 +23,55 @@ const professionals = [
 
 export function ProfessionalsSection() {
   return (
-    <section className="bg-cream py-24 md:py-32 px-6">
-      <div className="mx-auto max-w-[1120px]">
-        <h2 className="font-heading text-title text-ink leading-heading tracking-tight mb-14">
+    <section className="py-20 lg:py-28">
+      <div className="max-w-6xl mx-auto px-6">
+        <motion.h2
+          className="font-heading text-[clamp(1.75rem,3.5vw,2.75rem)] text-brand-text mb-12"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
+        >
           Fifteen independents. One address.
-        </h2>
+        </motion.h2>
 
-        <StackedReveal className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-4 mb-14">
-          {professionals.map((pro) => (
-            <div key={pro.slug} className="py-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mb-14">
+          {professionals.map((pro, i) => (
+            <motion.div
+              key={pro.slug}
+              className="py-2"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-40px' }}
+              transition={{ duration: 0.5, delay: i * 0.03, ease: [0.25, 0.1, 0.25, 1] }}
+            >
               <Link
                 href={`/directory/${pro.slug}`}
-                className="link-draw font-body text-body text-ink font-medium"
+                className="link-draw text-brand-text font-body"
               >
                 {pro.name}
               </Link>
-              <span className="font-body text-body text-ink-muted">
+              <span className="text-brand-text-muted font-body">
                 {' '} — {pro.specialty}
               </span>
-            </div>
+            </motion.div>
           ))}
-        </StackedReveal>
+        </div>
 
-        <a
-          href="/directory"
-          className="link-draw inline-flex items-center gap-2 font-body font-medium text-ink text-body"
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          View all professionals
-          <Arrow />
-        </a>
+          <Link
+            href="/directory"
+            className="link-draw text-brand-green font-body text-sm mt-8 inline-flex items-center gap-2"
+          >
+            View all professionals
+            <Arrow />
+          </Link>
+        </motion.div>
       </div>
     </section>
   )

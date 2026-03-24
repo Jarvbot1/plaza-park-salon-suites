@@ -1,28 +1,20 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Lora, JetBrains_Mono } from "next/font/google";
+import { Instrument_Serif, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { AnimatedNav } from "@/components/layout/AnimatedNav";
 import { Footer } from "@/components/layout/Footer";
-import { ScrollProgress } from "@/components/animations/ScrollProgress";
 
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400"],
   display: "swap",
 });
 
-const lora = Lora({
-  variable: "--font-lora",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const jetbrains = JetBrains_Mono({
-  variable: "--font-jetbrains",
-  subsets: ["latin"],
-  weight: ["400", "500"],
+  weight: ["300", "400", "500"],
   display: "swap",
 });
 
@@ -67,10 +59,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${lora.variable} ${jetbrains.variable} h-full antialiased`}
+      className={`${instrumentSerif.variable} ${dmSans.variable} antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <ScrollProgress />
         <AnimatedNav />
         <main className="flex-1">{children}</main>
         <Footer />

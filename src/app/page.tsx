@@ -1,29 +1,31 @@
 import { HeroSection } from "@/components/sections/HeroSection";
-import { MarqueeSection } from "@/components/sections/MarqueeSection";
-import { LeadCaptureSection } from "@/components/sections/LeadCaptureSection";
-import { WhyLeaseSection } from "@/components/sections/WhyLeaseSection";
+import { StatsBar } from "@/components/sections/StatsBar";
+import { PitchSection } from "@/components/sections/PitchSection";
 import { BrandiSection } from "@/components/sections/BrandiSection";
-import { SpecialistsSection } from "@/components/sections/SpecialistsSection";
+import { SuitePreview } from "@/components/sections/SuitePreview";
+import { ServicesGrid } from "@/components/sections/ServicesGrid";
+import { ProfessionalsSection } from "@/components/sections/ProfessionalsSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
-import { StatsSection } from "@/components/sections/StatsSection";
-import { ServicesSection } from "@/components/sections/ServicesSection";
-import { SocialSection } from "@/components/sections/SocialSection";
-import { FinalCTASection } from "@/components/sections/FinalCTASection";
+import { BooksyPreview } from "@/components/sections/BooksyPreview";
+import { SocialProofSection } from "@/components/sections/SocialProofSection";
+import { GooglePreview } from "@/components/sections/GooglePreview";
+import { SuiteFinderSection } from "@/components/sections/SuiteFinderSection";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <MarqueeSection />
-      <LeadCaptureSection />
-      <WhyLeaseSection />
+      <StatsBar />
+      <PitchSection />
       <BrandiSection />
-      <SpecialistsSection />
+      <SuitePreview />
+      <ServicesGrid />
+      <ProfessionalsSection />
       <TestimonialsSection />
-      <StatsSection />
-      <ServicesSection />
-      <SocialSection />
-      <FinalCTASection />
+      <BooksyPreview />
+      <SocialProofSection />
+      <GooglePreview />
+      <SuiteFinderSection />
     </>
   );
 }

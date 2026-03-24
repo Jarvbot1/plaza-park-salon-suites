@@ -1,39 +1,55 @@
 'use client'
 
+import { motion } from 'framer-motion'
 import LineDraw from '@/components/animations/LineDraw'
-import HorizontalWipe from '@/components/animations/HorizontalWipe'
 
 export function PitchSection() {
   return (
-    <section className="bg-cream py-24 md:py-32 px-6">
-      <div className="mx-auto max-w-[680px]">
-        <LineDraw className="mb-16" />
+    <section className="bg-brand-cream py-20 lg:py-28">
+      <div className="mx-auto max-w-[680px] px-6">
+        <LineDraw className="mb-16" color="var(--color-brand-text-muted)" />
 
-        <HorizontalWipe>
-          <p className="font-body uppercase text-ink-muted text-label tracking-wide mb-8">
-            The Space
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
+        >
+          <p className="font-body text-xs tracking-[0.08em] uppercase text-brand-text-muted mb-6">
+            THE SPACE
           </p>
 
-          <h2 className="font-heading text-title text-ink tracking-tight leading-heading mb-10">
-            Everything&#8217;s here. Just bring your scissors.
+          <h2 className="font-heading text-[clamp(2.5rem,5vw,4.5rem)] text-brand-text mb-8">
+            Everything&rsquo;s here. Just bring your scissors.
           </h2>
+        </motion.div>
 
-          <div className="space-y-6">
-            <p className="font-body font-light text-ink-light text-body leading-body">
-              Plaza Park Salon Suites is a 13,000-square-foot building in
-              Irving&#8217;s Valley Ranch neighborhood with forty private suites,
-              canal views, and the kind of natural light that makes color
-              corrections easier and clients happier. Every suite is move-in
-              ready — styling station, shampoo bowl, mirrors, storage, the works.
-              Your lease includes electricity, water, WiFi, parking, and 24/7
-              access. No hidden fees. No long-term commitments.
-            </p>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+        >
+          <p className="font-body font-light text-brand-text-secondary leading-[1.65] mb-6">
+            Plaza Park Salon Suites is a 13,000-square-foot building in
+            Irving&rsquo;s Valley Ranch neighborhood with forty private suites,
+            canal views, and the kind of natural light that makes color
+            corrections easier and clients happier. Every suite is move-in
+            ready — styling station, shampoo bowl, mirrors, storage, the works.
+            Your lease includes electricity, water, WiFi, parking, and 24/7
+            access. No hidden fees. No long-term commitments.
+          </p>
+        </motion.div>
 
-            <p className="font-body font-medium text-warm text-body">
-              New leases include a four-week free signing bonus.
-            </p>
-          </div>
-        </HorizontalWipe>
+        <motion.p
+          className="text-brand-green font-body font-medium"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+        >
+          New leases include a four-week free signing bonus.
+        </motion.p>
       </div>
     </section>
   )
